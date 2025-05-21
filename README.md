@@ -10,7 +10,7 @@ This dashboard helps people explore salaries for different data jobs so they can
 
 ## Salary Analysis
 I wanted to break down what skills and roles lead to higher pay in data jobs. This dashboard helps visualize the trends so it's easier to figure out where to focus if you're looking to grow your career.  
-[Check out my work here](Project_2-Dashboard)  
+[Check out my work here](Project_2-Analysis)  
 
 ![2_Project_Analysis_Chart1](https://github.com/user-attachments/assets/15b84a04-24a1-4760-bddb-9ece10a0087a)
 ![2_Project_Analysis_Chart3](https://github.com/user-attachments/assets/aa68207f-dcfd-4124-99e6-126ac9ee461f)
