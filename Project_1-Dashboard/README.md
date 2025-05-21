@@ -4,9 +4,9 @@
 
 ## Introduction
 
-This data jobs salary dashboard was created to help job seekers investigate salaries for their desired jobs and ensure they are being adequately compensated. 
+This project was completed as part of Luke Barousse’s Excel for Data Analytics course. It focused on foundational Excel skills including formulas, functions, data validation, and basic charting.
 
-The data is from my Excel course, which provides a foundation in analyzing data using this powerful tool. The data contains detailed information on job titles, salaries, locations, and essential skills that are presented here.
+Using a provided dataset of data-related job listings, I followed the course exercises step-by-step, completing the analysis to explore salary patterns, job titles, locations, and key skills. This project helped me build a solid base in Excel before moving on to more advanced techniques in the next project.
 
 ### Dashboard File
 My final dashboard is in [1_Salary_Dashboard.xlsx](1_Salary_Dashboard.xlsx).
@@ -34,7 +34,8 @@ The dataset used for this project contains real-world data science job informati
 
 #### 📊 Data Science Job Salaries - Bar Chart
 
-<img src="/0_Resources/Images/1_Salary_Dashboard_Chart1.png" width="850" height="550" alt="Salary Dashboard Chart1">
+![Salary Dashboard Chart1](/0_Resources/Images/1_Salary_Dashboard_Chart1.png)
+
 
 - 🛠️ **Excel Features:** Utilized bar chart feature (with formatted salary values) and optimized layout for clarity.
 - 🎨 **Design Choice:** Horizontal bar chart for visual comparison of median salaries.
@@ -78,7 +79,8 @@ IF(
 
 📉 Dashboard Implementation
 
-<img src="/0_Resources/Images/1_Salary_Dashboard_Job_Title.png" width="400" height="500" alt="Salary Dashboard Title">
+![Salary Dashboard Title](/0_Resources/Images/1_Salary_Dashboard_Job_Title.png)
+
 
 #### ⏰ Count of Job Schedule Type
 
@@ -95,7 +97,7 @@ IF(
 
 📉 Dashboard Implementation:
 
-<img src="/0_Resources/Images/1_Salary_Dashboard_Type.png" width="350" height="500" alt="Salary Dashboard Type">
+![Salary Dashboard Type](/0_Resources/Images/1_Salary_Dashboard_Type.png)
 
 ### ❎ Data Validation
 
@@ -106,7 +108,8 @@ IF(
     - 🚫 Incorrect or inconsistent entries are prevented
     - 👥 Overall usability of the dashboard is enhanced
 
-<img src="/0_Resources/Images/1_Salary_Dashboard_Data_Validation.gif" width="425" height="400" alt="Salary Dashboard Data Validation">
+![Salary Dashboard Data Validation](/0_Resources/Images/1_Salary_Dashboard_Data_Validation.gif)
+
 
 ## Conclusion
 
