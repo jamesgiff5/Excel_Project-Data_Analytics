@@ -6,10 +6,10 @@
 
 This project was completed as part of Luke Barousse’s Excel for Data Analytics course. It focused on foundational Excel skills including formulas, functions, data validation, and basic charting.
 
-Using a provided dataset of data-related job listings, I followed the course exercises step-by-step, completing the analysis to explore salary patterns, job titles, locations, and key skills. This project helped me build a solid base in Excel before moving on to more advanced techniques in the next project.
+Using a dataset of data-related job listings, I followed structured exercises to explore salary trends across job titles, countries, and work types. This project helped me build a solid foundation in Excel before moving on to more advanced tools in later projects.
 
 ### Dashboard File
-My final dashboard is in [1_Salary_Dashboard.xlsx](1_Salary_Dashboard.xlsx).
+The final dashboard is available in the [1_Salary_Dashboard.xlsx](1_Salary_Dashboard.xlsx) file.
 
 ### Excel Skills Used
 
@@ -34,8 +34,7 @@ The dataset used for this project contains real-world data science job informati
 
 #### 📊 Data Science Job Salaries - Bar Chart
 
-![Salary Dashboard Chart1](/0_Resources/Images/1_Salary_Dashboard_Chart1.png)
-
+<img src="https://raw.githubusercontent.com/lukebarousse/Excel_Data_Analytics_Course/refs/heads/main/0_Resources/Images/1_Salary_Dashboard_Chart1.png" alt="Salary Dashboard Chart1" width="500px">
 
 - 🛠️ **Excel Features:** Utilized bar chart feature (with formatted salary values) and optimized layout for clarity.
 - 🎨 **Design Choice:** Horizontal bar chart for visual comparison of median salaries.
@@ -44,7 +43,7 @@ The dataset used for this project contains real-world data science job informati
 
 #### 🗺️ Country Median Salaries - Map Chart
 
-![1_Salary_Dashboard_Chart2.png](/0_Resources/Images/1_Salary_Dashboard_Country_Map.gif)
+<img src="https://raw.githubusercontent.com/lukebarousse/Excel_Data_Analytics_Course/refs/heads/main/0_Resources/Images/1_Salary_Dashboard_Country_Map.gif" alt="Salary Dashboard Country Map" width="500px">
 
 - 🛠️ **Excel Features:** Utilized Excel's map chart feature to plot median salaries globally.
 - 🎨 **Design Choice:** Color-coded map to visually differentiate salary levels across regions.
@@ -73,13 +72,13 @@ IF(
 - 🎯 **Tailored Insights:** Provides specific salary information for job titles, regions, and schedule types.
 - **🔢 Formula Purpose:** This formula populates the table below, returning the median salary based on job title, country, and type specified.
 
-🍽️ Background Table
+📋 Background Table
 
 ![1_Salary_Dashboard_Screenshot1.png](/0_Resources/Images/1_Salary_Dashboard_Screenshot1.png)
 
 📉 Dashboard Implementation
 
-![Salary Dashboard Title](/0_Resources/Images/1_Salary_Dashboard_Job_Title.png)
+<img src="https://raw.githubusercontent.com/lukebarousse/Excel_Data_Analytics_Course/refs/heads/main/0_Resources/Images/1_Salary_Dashboard_Job_Title.png" alt="Salary Dashboard Title" width="350px">
 
 
 #### ⏰ Count of Job Schedule Type
@@ -97,7 +96,7 @@ IF(
 
 📉 Dashboard Implementation:
 
-![Salary Dashboard Type](/0_Resources/Images/1_Salary_Dashboard_Type.png)
+<img src="https://raw.githubusercontent.com/lukebarousse/Excel_Data_Analytics_Course/refs/heads/main/0_Resources/Images/1_Salary_Dashboard_Type.png" alt="Salary Dashboard by Job Type" width="350px">
 
 ### ❎ Data Validation
 
@@ -108,9 +107,10 @@ IF(
     - 🚫 Incorrect or inconsistent entries are prevented
     - 👥 Overall usability of the dashboard is enhanced
 
-![Salary Dashboard Data Validation](/0_Resources/Images/1_Salary_Dashboard_Data_Validation.gif)
+<img src="https://raw.githubusercontent.com/lukebarousse/Excel_Data_Analytics_Course/refs/heads/main/0_Resources/Images/1_Salary_Dashboard_Data_Validation.gif" alt="Salary Dashboard Data Validation" width="350px">
+
 
 
 ## Conclusion
 
-I created this dashboard to showcase insights into salary trends across various data-related job titles. Utilizing data from my Excel course, this dashboard allows users to make informed decisions about their career paths. Exploring the functionalities to understand how location and job type influence salaries. 
+I built this dashboard to explore how job title, location, and work type affect salaries in the data field. It’s meant to help others get a clearer picture of where they stand and what to aim for, while also showing what Excel can do when used well. 

@@ -44,29 +44,36 @@ It includes detailed information on:
 
 #### 📥 Extract
 
-- I first used Power Query to extract the original data (`data_salary_all.xlsx`) and create two queries:
-    - 🗃️ First one with all the data jobs information.
-    - 🔧 The second listing the skills for each job ID.
+I used Power Query to pull in the original dataset (`data_salary_all.xlsx`) and created two queries:
+
+- 🗃️ `data_jobs_all`: contains all job listing information
+
+- 🔧 `data_job_skills`: lists the required skills by job ID
 
 #### 🔄 Transform
 
-- Then, I transformed each query by changing column types, removing unnecessary columns, cleaning text to eliminate specific words, and trimming excess whitespace.
-    - 📊 data_jobs_all
+Next, I cleaned and prepared each query by:
+- Changing column types
+- Removing unnecessary columns
+- Cleaning up text (removing keywords, trimming whitespace)
+
+    - 📊 `data_jobs_all`
 
         ![2_Project_Analysis_Screenshot1.png](/0_Resources/Images/2_Project_Analysis_Screenshot1.png)
 
-    - 🛠️ data_job_skills
+    - 🛠️ `data_job_skills`
 
         ![2_Project_Analysis_Screenshot2.png](/0_Resources/Images/2_Project_Analysis_Screenshot2.png)
 
 #### 🔗 Load
 
-- Finally, I loaded both transformed queries into the workbook, setting the foundation for my subsequent analysis.
-    - 📊 data_jobs_all
+- Finally, I loaded both cleaned queries into the workbook for analysis.
+
+    - 📊 `data_jobs_all`
 
         ![2_Project_Analysis_Screenshot3.png](/0_Resources/Images/2_Project_Analysis_Screenshot3.png)
 
-    - 🛠️ data_job_skills
+    - 🛠️ `data_job_skills`
 
         ![2_Project_Analysis_Screenshot4.png](/0_Resources/Images/2_Project_Analysis_Screenshot4.png)
 
@@ -99,12 +106,9 @@ It includes detailed information on:
     ```
 
 #### 🧮 DAX
-
-- To calculate the median year salary I used DAX.
-
-    ```
+```
     Median Salary := MEDIAN(data_jobs_all[salary_year_avg])
-    ```
+```
 
 ### 📊 Analysis
 
@@ -132,7 +136,8 @@ It includes detailed information on:
 
 - I created a relationship between my two tables using the `job_id` column.
 
-    ![2_Project_Analysis_Screenshot5.png](/0_Resources/Images/2_Project_Analysis_Screenshot5.png)
+    <img src="https://raw.githubusercontent.com/lukebarousse/Excel_Data_Analytics_Course/refs/heads/main/0_Resources/Images/2_Project_Analysis_Screenshot5.png" alt="Project Analysis Screenshot 5" width="500px">
+
 
 #### 📃 Power Pivot Menu
 
@@ -173,13 +178,12 @@ It includes detailed information on:
 
     ![2_Project_Analysis_Chart4.png](/0_Resources/Images/2_Project_Analysis_Chart4.png)
 
-### 🤔So What
+#### 🤔So What
 
 - This chart highlights the importance of investing time in learning high-value skills like Python and SQL, which are evidently tied to higher paying roles, especially for those looking to maximize their salary in the tech industry.
 
 ## Conclusion
 
-This project gave me hands-on practice with Excel tools like Power Query, PivotTables, DAX, and charts while working through real-world job market data. Although the structure was provided in the course, I applied each step independently and made customizations to reinforce the concepts.
+This project gave me practical experience using Excel tools like Power Query, PivotTables, DAX, and charts to analyze real-world job market data. While the course provided the structure, I completed each step independently and added customizations to deepen my understanding.
 
-The experience helped me better understand how in-demand skills—especially Python, SQL, and cloud platforms—relate to higher salaries. It also strengthened my confidence in using Excel for data-driven decision-making, something I’m continuing to build on as I grow in the data analytics field.
-
+It reinforced how in-demand tools like Python, SQL, and cloud platforms align with higher salaries, and it proved how Excel can drive meaningful insights when used well. Projects like this continue to build my foundation as a data analyst ready to tackle real business problems.
