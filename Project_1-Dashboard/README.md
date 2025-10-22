@@ -15,18 +15,18 @@ The final dashboard is available in the [1_Salary_Dashboard.xlsx](1_Salary_Dashb
 
 The following Excel skills were utilized for analysis:
 
-- **📉 Charts**
-- **🧮 Formulas and Functions**
-- **❎ Data Validation**
+- **Charts**
+- **Formulas and Functions**
+- **Data Validation**
 
 ### Data Jobs Dataset
 
 The dataset used for this project contains real-world data science job information from 2023. The dataset is available via my Excel course, which provides a foundation for analyzing data using Excel. It includes detailed information on:
 
-- **👨‍💼 Job titles**
-- **💰 Salaries**
-- **📍 Locations**
-- **🛠️ Skills**
+- **Job titles**
+- **Salaries**
+- **Locations**
+- **Skills**
 
 ## Dashboard Build
 
@@ -36,10 +36,10 @@ The dataset used for this project contains real-world data science job informati
 
 <img src="https://raw.githubusercontent.com/lukebarousse/Excel_Data_Analytics_Course/refs/heads/main/0_Resources/Images/1_Salary_Dashboard_Chart1.png" alt="Salary Dashboard Chart1" width="500px">
 
-- 🛠️ **Excel Features:** Utilized bar chart feature (with formatted salary values) and optimized layout for clarity.
-- 🎨 **Design Choice:** Horizontal bar chart for visual comparison of median salaries.
-- 📉 **Data Organization:** Sorted job titles by descending salary for improved readability.
-- 💡 **Insights Gained:** This enables quick identification of salary trends, noting that Senior roles and Engineers are higher-paying than Analyst roles.
+- **Excel Features:** Utilized bar chart feature (with formatted salary values) and optimized layout for clarity.
+- **Design Choice:** Horizontal bar chart for visual comparison of median salaries.
+- **Data Organization:** Sorted job titles by descending salary for improved readability.
+- **Insights Gained:** This enables quick identification of salary trends, noting that Senior roles and Engineers are higher-paying than Analyst roles.
 
 #### 🗺️ Country Median Salaries - Map Chart
 
