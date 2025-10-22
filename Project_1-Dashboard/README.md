@@ -32,7 +32,7 @@ The dataset used for this project contains real-world data science job informati
 
 ### 📉 Charts
 
-#### 📊 Data Science Job Salaries - Bar Chart
+#### Data Science Job Salaries - Bar Chart
 
 <img src="https://raw.githubusercontent.com/lukebarousse/Excel_Data_Analytics_Course/refs/heads/main/0_Resources/Images/1_Salary_Dashboard_Chart1.png" alt="Salary Dashboard Chart1" width="500px">
 
@@ -45,13 +45,13 @@ The dataset used for this project contains real-world data science job informati
 
 <img src="https://raw.githubusercontent.com/lukebarousse/Excel_Data_Analytics_Course/refs/heads/main/0_Resources/Images/1_Salary_Dashboard_Country_Map.gif" alt="Salary Dashboard Country Map" width="500px">
 
-- 🛠️ **Excel Features:** Utilized Excel's map chart feature to plot median salaries globally.
-- 🎨 **Design Choice:** Color-coded map to visually differentiate salary levels across regions.
-- 📊 **Data Representation:** Plotted median salary for each country with available data.
-- 👁️ **Visual Enhancement:** Improved readability and immediate understanding of geographic salary trends.
-- 💡 **Insights Gained:** Enables quick grasp of global salary disparities and highlights high/low salary regions.
+- **Excel Features:** Utilized Excel's map chart feature to plot median salaries globally.
+- **Design Choice:** Color-coded map to visually differentiate salary levels across regions.
+- **Data Representation:** Plotted median salary for each country with available data.
+- **Visual Enhancement:** Improved readability and immediate understanding of geographic salary trends.
+- **Insights Gained:** Enables quick grasp of global salary disparities and highlights high/low salary regions.
 
-### 🧮 Formulas and Functions
+### Formulas and Functions
 
 #### 💰 Median Salary by Job Titles
 
@@ -67,10 +67,10 @@ IF(
 )
 ```
 
-- 🔍 **Multi-Criteria Filtering:** Checks job title, country, schedule type, and excludes blank salaries.
-- 📊 **Array Formula:** Utilizes `MEDIAN()` function with nested `IF()` statement to analyze an array.
-- 🎯 **Tailored Insights:** Provides specific salary information for job titles, regions, and schedule types.
-- **🔢 Formula Purpose:** This formula populates the table below, returning the median salary based on job title, country, and type specified.
+- **Multi-Criteria Filtering:** Checks job title, country, schedule type, and excludes blank salaries.
+- **Array Formula:** Utilizes `MEDIAN()` function with nested `IF()` statement to analyze an array.
+- **Tailored Insights:** Provides specific salary information for job titles, regions, and schedule types.
+- **Formula Purpose:** This formula populates the table below, returning the median salary based on job title, country, and type specified.
 
 📋 Background Table
 
@@ -81,16 +81,16 @@ IF(
 <img src="https://raw.githubusercontent.com/lukebarousse/Excel_Data_Analytics_Course/refs/heads/main/0_Resources/Images/1_Salary_Dashboard_Job_Title.png" alt="Salary Dashboard Title" width="350px">
 
 
-#### ⏰ Count of Job Schedule Type
+#### Count of Job Schedule Type
 
 ```
 =FILTER(J2#,(NOT(ISNUMBER(SEARCH("and",J2#))+ISNUMBER(SEARCH(",",J2#))))*(J2#<>0))
 ```
 
-- 🔍 **Unique List Generation:** This Excel formula below employs the `FILTER()` function to exclude entries containing "and" or commas, and omit zero values.
-- **🔢 Formula Purpose:** This formula populates the table below, which gives us a list of unique job schedule types.
+- **Unique List Generation:** This Excel formula below employs the `FILTER()` function to exclude entries containing "and" or commas, and omit zero values.
+- **Formula Purpose:** This formula populates the table below, which gives us a list of unique job schedule types.
 
-🍽️ Background Table
+Background Table
 
 ![1_Salary_Dashboard_Type.png](/0_Resources/Images/1_Salary_Dashboard_Screenshot2.png)
 
@@ -98,14 +98,14 @@ IF(
 
 <img src="https://raw.githubusercontent.com/lukebarousse/Excel_Data_Analytics_Course/refs/heads/main/0_Resources/Images/1_Salary_Dashboard_Type.png" alt="Salary Dashboard by Job Type" width="350px">
 
-### ❎ Data Validation
+### Data Validation
 
-#### 🔍 Filtered List
+#### Filtered List
 
-- 🔒 **Enhanced Data Validation:** Implementing the filtered list as a data validation rule under the `Job Title`, `Country`, and `Type` option in the Data tab ensures:
-    - 🎯 User input is restricted to predefined, validated schedule types
-    - 🚫 Incorrect or inconsistent entries are prevented
-    - 👥 Overall usability of the dashboard is enhanced
+- **Enhanced Data Validation:** Implementing the filtered list as a data validation rule under the `Job Title`, `Country`, and `Type` option in the Data tab ensures:
+    - User input is restricted to predefined, validated schedule types
+    - Incorrect or inconsistent entries are prevented
+    - Overall usability of the dashboard is enhanced
 
 <img src="https://raw.githubusercontent.com/lukebarousse/Excel_Data_Analytics_Course/refs/heads/main/0_Resources/Images/1_Salary_Dashboard_Data_Validation.gif" alt="Salary Dashboard Data Validation" width="350px">
 
